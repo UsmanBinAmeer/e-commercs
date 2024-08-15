@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(229, 243, 255, 0.855);
+}
+
+.top_msg {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.favoriteShoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.favoriteShoes a {
+    text-decoration: none;
+}
+
+.favoriteShoes .logo {
+    font-size: 35px;
+    color: black;
+}
+
+.favoriteShoes p {
+    font-size: 20px;
+}
+
+.favoriteShoes input {
+    height: 30px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.favoriteShoes button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+.headings {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.headings a {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+main img {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.cardsContainer {
+    /* width: 100%; */
+    display: flex;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cardsContainer .cardOne {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.cardsContainer .cardTwo {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.cardsContainer .cardThree {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.topSeller {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.topSellerCardsContainer {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 45px;
+}
+
+.topSellerCardsContainer .cardOne {
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.topSellerCardsContainer .cardTwo {
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.topSellerCardsContainer .cardThree {
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.topSellerCardsContainer .cardFour {
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.brands p {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.brands img {
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 230px;
+    height: 110px;
+}
+
+.spotLight {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 700px;
+}
+
+.spotLight .firstPara {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.spotLight .secoundPara {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.spotCardsContainer {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.spotCardsContainer .cardOne {
+    width: 360px;
+    height: 460px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.spotCardsContainer .cardOne img {
+    width: 100%;
+    height: 350px;
+}
+
+.spotCardsContainer .cardTwo {
+    width: 360px;
+    height: 460px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.spotCardsContainer .cardTwo img {
+    width: 100%;
+    height: 350px;
+}
+
+.spotCardsContainer .cardThree {
+    width: 360px;
+    height: 460px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.spotCardsContainer .cardThree img {
+    width: 100%;
+    height: 350px;
+}
+
+.spotCardsContainer p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.spotCardsContainer a {
+    text-decoration: none;
+    color: #7a7878b1;
+}
+
+.footerContainer {
+    display: flex;
+    line-height: 35px;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-color: #f5f5f5;
+    margin-top: 45px;
+}
+
+.lastFooter {
+    background-color: black;
+    color: white;
+    height: 160px;
+}
+
+.lastFooter p {
+    margin-left: 100px;
+    padding-top: 45px;
+}
+
+.connect .fa-brands {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background: transparent;
+}
+
+.heading h1 {
+    text-align: center;
+    margin-top: 80px;
+    text-decoration: underline;
+}
+
+.menCardsContainer,
+.menCardsContainer2,
+.menCardsContainer3,
+.menCardsContainer4 {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.menCardsContainer img,
+.menCardsContainer2 img,
+.menCardsContainer3 img,
+.menCardsContainer4 img {
+    width: 250px;
+    height: 210px;
+}
+
+.womenCardsContainer,
+.womenCardsContainer2,
+.womenCardsContainer3,
+.womenCardsContainer4 {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.womenCardsContainer img,
+.womenCardsContainer2 img,
+.womenCardsContainer3 img,
+.womenCardsContainer4 img {
+    width: 250px;
+    height: 210px;
+}
+
+.kidsCardsContainer,
+.kidsCardsContainer2,
+.kidsCardsContainer3,
+.kidsCardsContainer4 {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.kidsCardsContainer img,
+.kidsCardsContainer2 img,
+.kidsCardsContainer3 img,
+.kidsCardsContainer4 img {
+    width: 250px;
+    height: 210px;
+}
+
+.kidsCardsContainer span,
+.kidsCardsContainer2 span,
+.kidsCardsContainer3 span,
+.kidsCardsContainer4 span {
+    text-decoration: line-through red;
+    color: grey;
+}
+
+.kidsCardsContainer,
+.kidsCardsContainer2,
+.kidsCardsContainer3,
+.kidsCardsContainer4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.womenCardsContainer span,
+.womenCardsContainer2 span,
+.womenCardsContainer3 span,
+.womenCardsContainer4 span {
+    text-decoration: line-through red;
+    color: grey;
+}
+
+.womenCardsContainer,
+.womenCardsContainer2,
+.womenCardsContainer3,
+.womenCardsContainer4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.menCardsContainer span,
+.menCardsContainer2 span,
+.menCardsContainer3 span,
+.menCardsContainer4 span {
+    text-decoration: line-through red;
+    color: grey;
+}
+
+.menCardsContainer,
+.menCardsContainer2,
+.menCardsContainer3,
+.menCardsContainer4 {
+    text-align: center;
+    font-size: 20px;
+}
